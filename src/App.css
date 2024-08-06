@@ -112,7 +112,18 @@
     right: 20px;
 }
 
-.filter-option{ cursor: pointer; }
+.filter-option{ 
+    list-style: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    width: min-content;
+    background-color: rgb(216, 216, 216);
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
 .filter-option:hover{ text-decoration: underline; }
 
 .educational-purposes{
